@@ -130,6 +130,17 @@ p {
     justify-content: center;
 }
 
+#tealBox{background: teal;}
+#goldBox{background:gold;}
+#cadetblueBox{background:cadetblue;}
+#coralBox{background:coral;}
+#crimsonBox{background:crimson;}
+#forestgreenBox{background:forestgreen;}
+#darkorchidBox{background:darkorchid;}
+#hotpinkBox{background:hotpink;}
+#indigoBox{background:indigo;}
+#dodgerblueBox{background:dodgerblue;}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
