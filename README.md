@@ -38,8 +38,7 @@ Semantic tags are used to divide a page into useful sections and provide meaning
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-1. Block will drop the next item to the next line while inline won't.
-2. Blocks can be sized and positioned while inline just holds the content usually to style or add functionality to it.
+ First, Block will drop the next item to the next line while inline won't. Also, Blocks can be sized and positioned while inline just holds the content usually to style or add functionality to it.
 
 3. What are the 4 areas of the box model?
 
