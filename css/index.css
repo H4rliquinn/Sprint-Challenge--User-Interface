@@ -49,6 +49,37 @@ nav a{
 .jumboImg{
     margin-bottom:20px;
 }
+
+main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.text-container{
+    margin:15px 0px;
+    padding-bottom:20px;
+    border-bottom:1px dashed black;
+}
+
+main .text-container{
+    width:45%;
+}
+
+main .text-container img{
+    margin-bottom:15px;
+}
+main button{
+    background:white;
+    width:115px;
+    height:35px;
+    align-content: center;
+    border:2px solid black;
+    border-radius:10px;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top:15px;
+}
 ol, ul {
 	list-style: none;
 }
@@ -154,6 +185,17 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.callToAction{
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.callToAction div{
+    width:95%;
+}
+
 
 footer {
     width: 100%;
