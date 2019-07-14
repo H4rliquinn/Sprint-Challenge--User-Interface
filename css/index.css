@@ -31,6 +31,57 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+nav{
+    display:flex;
+    margin:30px 0px;
+    align-items: baseline;
+    justify-content: space-between;
+    width:95%;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    font-size:12px;
+    font-weight: bold;
+}
+
+.jumboImg{
+    margin-bottom:20px;
+}
+
+main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.text-container{
+    padding-bottom:20px;
+}
+
+main .text-container{
+    width:45%;
+    border-bottom:1px dashed black;
+    margin:30px 0px;
+}
+header .text-container{
+    border-bottom:1px dashed black;
+}
+main .text-container img{
+    margin-bottom:15px;
+}
+main button{
+    background:white;
+    width:115px;
+    height:35px;
+    align-content: center;
+    border:2px solid black;
+    border-radius:10px;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top:15px;
+}
 ol, ul {
 	list-style: none;
 }
@@ -102,7 +153,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -111,6 +162,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#tealBox{background: teal;}
+#goldBox{background:gold;}
+#cadetblueBox{background:cadetblue;}
+#coralBox{background:coral;}
+#crimsonBox{background:crimson;}
+#forestgreenBox{background:forestgreen;}
+#darkorchidBox{background:darkorchid;}
+#hotpinkBox{background:hotpink;}
+#indigoBox{background:indigo;}
+#dodgerblueBox{background:dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -125,6 +187,17 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.callToAction{
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.callToAction div{
+    width:95%;
+}
+
 
 footer {
     width: 100%;
@@ -143,4 +216,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    main, .top-content, .callToAction, .bottom-content{
+        flex-direction:column;  
+    }
+    header .text-container{
+        width: 400px;
+    }
+    .callToAction div{
+        width:400px;
+    }
+    nav{width:400px;}
+    .jumboImg{
+        width:400px;
+    }
+    footer{width:400px}
+    footer nav {
+        width: 95%;
+    }
+    .middle-content .boxes{
+        width:400px;
+        flex-wrap:wrap;
+        align-items: flex-start;
+        align-content:flex-start;
+    }
+    .bottom-content .text-container{
+        width:400px;
+    }
+    /*.middle-content .boxes .box */
 }
